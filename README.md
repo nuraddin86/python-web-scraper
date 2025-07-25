@@ -1,20 +1,28 @@
-# 📘 Python Web Scraper
+# 📘 Python Book Scraper
 
-This project is a simple Python web scraper that collects book data from [books.toscrape.com](https://books.toscrape.com).
+This project is a simple Python web scraper that collects book information from [books.toscrape.com](https://books.toscrape.com).  
+It extracts book title, price, rating, and product link from all pages and saves the data into a CSV file.
 
-## 📦 Features
-- Scrapes book title, price, rating, and product link
-- Supports multiple pages (pagination)
-- Exports results to `book.csv`
+## 🔧 Features
 
-## 🛠️ Technologies Used
+- 🔄 Scrapes all pages using pagination
+- 📚 Extracts:
+  - Book title
+  - Price
+  - Rating
+  - Product link
+- 💾 Saves data into `book.csv`
+- ✅ Easy to use and beginner-friendly
+
+## 📦 Technologies Used
+
 - Python 3
-- requests
-- BeautifulSoup
-- pandas
+- `requests`
+- `BeautifulSoup`
+- `pandas`
 
 ## ▶️ How to Run
 
-Install requirements (optional):
+### 1. Install required packages:
 ```bash
 pip install requests beautifulsoup4 pandas
