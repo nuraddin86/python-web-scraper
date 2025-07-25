@@ -18,11 +18,13 @@ It extracts book title, price, rating, and product link from all pages and saves
 
 - Python 3
 - `requests`
-- `BeautifulSoup`
+- `beautifulsoup4`
 - `pandas`
 
 ## ▶️ How to Run
 
-### 1. Install required packages:
+### 1. Clone the repository
+
 ```bash
-pip install requests beautifulsoup4 pandas
+git clone https://github.com/nuraddin86/python-web-scraper.git
+cd python-web-scraper
