@@ -1,3 +1,4 @@
+
 # 📘 Python Book Scraper
 
 This project is a simple Python web scraper that collects book information from [books.toscrape.com](https://books.toscrape.com).  
@@ -23,8 +24,32 @@ It extracts book title, price, rating, and product link from all pages and saves
 
 ## ▶️ How to Run
 
-### 1. Clone the repository
+### 1. Install required packages:
 
 ```bash
-git clone https://github.com/nuraddin86/python-web-scraper.git
-cd python-web-scraper
+pip install -r requirements.txt
+```
+
+### 2. Run the scraper:
+
+```bash
+python book.py
+```
+
+After running the script, a file named `book.csv` will be created containing the scraped data.
+
+## 📂 Output Example
+
+| Book Title              | Price  | Rating | Link                                                |
+|------------------------|--------|--------|-----------------------------------------------------|
+| A Light in the Attic   | £51.77 | Three  | https://books.toscrape.com/catalogue/a-light...     |
+| Tipping the Velvet     | £53.74 | One    | https://books.toscrape.com/catalogue/tipping...     |
+| Soumission             | £50.10 | One    | https://books.toscrape.com/catalogue/soumission...  |
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙋 Author
+
+Created by [Nuriddin Xojabayev](https://github.com/nuraddin86)
